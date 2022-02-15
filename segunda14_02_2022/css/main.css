@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #fff;
+  --text: rgba(0, 0, 0, 0.87);
+}
+
+body {
+  font-family: arial, sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100vh;
+}
+
+svg {
+  width: 10px;
+}
+
+main nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 18px;
+  width: 100%;
+  padding: 15px;
+}
+
+main > nav a {
+  font-size: 13px;
+  text-decoration: none;
+  color: var(--text);
+}
+
+main > nav a img {
+  border-radius: 50%;
+}
+
+main > nav a:hover {
+  text-decoration: underline;
+}
+
+main > footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  background: #f2f2f2;
+}
+
+main > footer > span {
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  color: #70757a;
+  width: 100%;
+}
+
+main > footer > nav {
+  padding: 0 13px 0;
+  width: 100%;
+  display: flex;
+}
+
+main > footer > nav > a {
+  padding: 15px;
+  text-decoration: none;
+  color: #70757a;
+  font-size: 13px;
+}
+
+main > footer > nav > a:hover {
+  text-decoration: underline;
+}
+
+main > footer > nav > a.separator {
+  margin-left: auto;
+}
+
+main > section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 584px;
+  width: 100%;
+  margin-bottom: 130px;
+}
+
+main > section > span button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  padding: 10px 15px;
+  font-size: 14px;
+
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+main > section > span button:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+main > section > span button + button {
+  margin-left: 8px;
+}
+
+main > section > p {
+  color: #3c4043;
+  font-size: small;
+}
+
+main > section > p a {
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+main > section > p a:hover {
+  text-decoration: underline;
+}
+
+main > section > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+
+  padding: 0 12px;
+  width: 100%;
+}
+
+main > section > div > input {
+  flex: 1;
+  padding: 12px 0;
+  border: 0;
+  outline: 0;
+}
+
+main > section > div svg {
+  width: 20px;
+  fill: #9aa0a6;
+  margin: 0 8px;
+}
