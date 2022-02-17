@@ -12,6 +12,11 @@ const palavrasChave = [
 
 const inputBusca = document.querySelector('#inputBusca');
 
+/**
+ * @description mostrar resultados da busca
+ *
+ * @param {Event} e evento do elemento
+ **/
 function showBarraDeBusca(e) {
   const barraDeBusca = document.querySelector('#busca');
   if (!barraDeBusca) return;
