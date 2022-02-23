@@ -1,0 +1,207 @@
+body {
+  font-family: 'Maven Pro', sans-serif;
+}
+
+main {
+  padding: 1.496333981744725rem 2.244500972617088rem;
+  background: url('../assets/images/background.jpg');
+  background-size: cover;
+}
+
+main > svg {
+  width: 8.978003890468353rem;
+  fill: white;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+main > form {
+  width: 25.437677689660333rem;
+}
+
+main > form > h5 {
+  color: #111;
+  font-size: 1.558681230984089rem;
+  font-weight: 600;
+}
+
+main > form > nav a {
+  text-decoration: none;
+  flex: 1;
+  border-radius: 4px;
+  background: #ccc;
+  height: 2.244500972617088rem;
+  border: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+main > form > nav a i {
+  color: white;
+  font-size: 1.3rem;
+}
+
+main > form > nav a:nth-child(1) {
+  background: #1877f2;
+}
+
+main > form > nav a:nth-child(2) {
+  background: white;
+}
+
+main > form > nav a:nth-child(2) i {
+  color: red;
+}
+
+main > form > nav a:nth-child(3) {
+  background: black;
+}
+
+.aula1--input {
+  background: rgba(126, 126, 126, 0.1);
+  color: #525252;
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid rgba(126, 126, 126, 0.1);
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  line-height: 100%;
+
+  width: 100%;
+  position: relative;
+}
+
+.aula1--input input {
+  font-size: 0.997555987829817rem;
+  padding: 1.2em 0.374083495436181rem 0.35em;
+  min-height: 3.05em;
+  border: 2px transparent;
+  line-height: 1.5em;
+  display: block;
+  width: 100%;
+  background: transparent;
+
+  transition: all 0.3s;
+}
+
+.aula1--input input::placeholder {
+  color: transparent;
+}
+
+.aula1--input input:focus + label {
+  font-size: 0.58rem;
+  top: 14px;
+  left: 7px;
+}
+
+.aula1--input input:not(input:placeholder-shown) + label {
+  font-size: 0.58rem;
+  top: 14px;
+  left: 7px;
+}
+
+.aula1--input label {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+  pointer-events: none;
+  font-size: 0.638435832211083rem;
+
+  transition: all 0.3s;
+}
+
+/* Apenas exemplo */
+label[for='salvarSenha'] {
+  font-size: 0.798044790263854rem;
+  color: #292929;
+  cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 120%;
+  margin-top: 5px;
+}
+
+.aula1--button {
+  background-image: url(data:image/svg+xml;charset=utf8;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHZpZXdCb3g9IjAgMCAxOCAxOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNC4yNzI3IDEwTDAuNSAxMEwwLjUgOEwxNC4yNzI1IDhMOC41MTM0NSAxLjcyNDk2TDkuODY1NzkgMC4yNTE0NjVMMTcuMjE4OSA4LjI2MzMzQzE3LjU5MjMgOC42NzAyMiAxNy41OTIzIDkuMzI5OTMgMTcuMjE4OSA5LjczNjgyTDkuODY1NzkgMTcuNzQ4N0w4LjUxMzQ1IDE2LjI3NTJMMTQuMjcyNyAxMFoiIGZpbGw9IiNFOEU4RTgiLz4KPC9zdmc+Cg==);
+  background-size: 1.571150680831962rem;
+  width: 4.489001945234176rem;
+  padding: 0 1.496333981744725rem;
+  border-radius: 1.496333981744725rem;
+  height: 4.489001945234176rem;
+  font-size: 1.246944984787271rem;
+  border: 2px solid #e8e8e8;
+  background-color: transparent;
+  color: #e8e8e8;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0.7;
+}
+
+.aula1--links {
+  color: #666;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  line-height: 110%;
+  font-size: 0.638435832211083rem;
+
+  transition: all 0.3s;
+}
+
+.aula1--links:hover {
+  color: black;
+}
+
+footer nav a {
+  font-size: 0.638435832211083rem;
+  color: rgba(249, 249, 249, 0.65);
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  line-height: 110%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+footer nav a:hover {
+  color: rgba(249, 249, 249, 0.65);
+}
+
+footer nav a:last-child {
+  font-size: 0.638435832211083rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  line-height: 110%;
+  padding: 0.374083495436181rem 0.59853359269789rem;
+  background-color: rgba(229, 229, 229, 0.2);
+  border-radius: 4.7px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+footer nav a:last-child i {
+  color: white;
+  font-size: 1rem;
+}
+
+footer nav a:last-child:hover {
+  background-color: #0bc4e2;
+}
+
+footer > p {
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  line-height: 130%;
+  color: rgba(249, 249, 249, 0.6);
+  font-size: 8.19px;
+}
