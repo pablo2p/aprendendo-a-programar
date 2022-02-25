@@ -1,0 +1,19 @@
+@import '_variaveis.scss';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: $backgroundColor;
+    font-family: $font-sans;
+    padding: 0px 50px;
+    min-height: 100vh;
+}
+
+@import './components/_buttons.scss';
+@import './components/_header.scss';
+@import './components/_content.scss';
+@import './components/_aside.scss';

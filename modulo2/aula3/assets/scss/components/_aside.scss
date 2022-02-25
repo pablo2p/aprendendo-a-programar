@@ -1,0 +1,57 @@
+aside {
+    position: fixed;
+    bottom: 0px;
+
+    &::after {
+        content: '';
+        width: 2px;
+        height: 90px;
+        background: $gray500;
+        margin: 20px auto 0;
+    }
+
+    &.aula3--aside-left {
+        left: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        i {
+            color: $gray500;
+            padding: 10px;
+            transition: all 0.3s;
+            font-size: 1.2rem;
+            cursor: pointer;
+
+            &:hover {
+                transform: translateY(-3px);
+                color: $fontPrimaryColor;
+            }
+        }
+    }
+
+    &.aula3--aside-right {
+        right: 50px;
+        display: flex;
+        justify-content: center;
+        letter-spacing: center;
+        writing-mode: vertical-rl;
+
+        a {
+            font-family: $font-mono;
+            color: $gray600;
+            letter-spacing: 0.1em;
+            line-height: 18px;
+            transition: all 0.3s;
+            font-size: 12px;
+
+            cursor: pointer;
+
+            &:hover {
+                transform: translateY(-3px);
+                color: $fontPrimaryColor;
+            }
+        }
+    }
+}
