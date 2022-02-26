@@ -3,16 +3,23 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 50px 0 60px;
+    background: #0a192fd4;
 
     > h4 {
         font-size: 1.2rem;
         color: $fontPrimaryColor;
         font-weight: 500;
+        margin-left: 10px;
     }
     
     nav {
         display: flex;
-        gap: 10px;
+        gap: 30px;
 
         a {
             display: flex;
@@ -22,13 +29,14 @@ header {
             color: $fontPrimaryColor;
             transition: all 0.3s;
             font-size: 13px;
-            font-weight: 500;
+            font-weight: 400;
             
             p {
                 font-size: 13px;
                 margin: 0;
                 color: $gray500;
                 transition: all 0.3s;
+                letter-spacing: 2px;
 
                 &:hover {
                     color: $fontPrimaryColor;
