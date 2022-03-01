@@ -16,9 +16,15 @@ const findLista = document.querySelector('#listaRepositories');
     const repositories = await response.json();
 
     const listaRepos = repositories.map(repositorie => {
-        const name = repositorie['name'];
+        // console.log(repositorie)
+        const { name, html_url: url } = repositorie || {};
+
         return `
-            <li>${name}</li>
+            <li>
+                <a href="${url}" target="_blank" rel="noopener noreferrer">
+                    ${name}
+                </a>
+            </li>
         `;
     }).join('');
     findLista.innerHTML = listaRepos;
