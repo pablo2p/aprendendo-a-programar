@@ -1,0 +1,12 @@
+.blizzard--menu {
+    width: 440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 425px) {
+    .blizzard--menu {
+        width: 100%;
+    }
+}

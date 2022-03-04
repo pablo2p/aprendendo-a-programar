@@ -1,0 +1,17 @@
+.blizzard-button {
+    color: #fff;
+    background: rgba(208, 233, 255, 0.2);
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    min-height: 30px;
+    padding: 0 20px;
+    font-weight: bold;
+    margin-top: .5rem;
+    margin-left: .7rem;
+}
+
+.blizzard-button:hover {
+    background: linear-gradient(180deg, #1888EF 0%, #009FE9 100%);
+    color: #FFFFFF;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+}

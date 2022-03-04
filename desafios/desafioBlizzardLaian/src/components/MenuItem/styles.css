@@ -1,0 +1,10 @@
+.blizzard--menu-item {
+    font-weight: 500;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 0.3s ease
+}
+
+.blizzard--menu-item:hover {
+    color: rgba(255, 255, 255, 1)
+}

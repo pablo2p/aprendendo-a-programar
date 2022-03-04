@@ -1,0 +1,12 @@
+.blizzard--account-menu {
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+    .blizzard--account-menu {
+        height: 100%;
+        align-items: center;
+    }
+}

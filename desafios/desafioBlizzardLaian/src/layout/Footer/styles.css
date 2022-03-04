@@ -1,0 +1,72 @@
+.blizzard-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 485px;
+    background-color: #171717;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 20px 0;
+}
+
+.lenguage {
+    display: flex;
+    align-items: baseline;
+}
+
+.globe {
+    margin-right: 5px;
+    color: rgba(20, 142, 255);
+}
+
+.lenguage:hover .globe {
+    color: rgb(102, 196, 255);
+    cursor: pointer;
+}
+
+.lenguage:hover p {
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.blizzard-logo {
+    height: 116px;
+}
+
+.blizzard-footer .links a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 0.3s ease
+}
+
+.blizzard-footer .links a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.blizzard-footer .links .link::after {
+    content: "";
+    display: inline-block;
+    height: 10px;
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 0 10px;
+    pointer-events: none;
+}
+
+.app {
+    text-decoration: none;
+    color: rgba(20, 142, 255);
+}
+
+.app:hover {
+    color: rgb(102, 196, 255);
+}
+
+.github {
+    text-decoration: none;
+    color: rgba(20, 142, 255);
+}
+
+.github:hover {
+    color: rgb(102, 196, 255);
+}

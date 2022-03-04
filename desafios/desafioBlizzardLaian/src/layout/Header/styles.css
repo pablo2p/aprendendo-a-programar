@@ -1,0 +1,32 @@
+.blizzard--navbar {
+    background-color: #0B0D12;
+    height: 60px;
+    color: #fff;
+}
+
+.blizzard--container {
+    width: 100%;
+    padding: 0 40px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blizzard--logo {
+    height: 60px;
+    margin-right: 30px;
+}
+
+@media (max-width: 991px) {
+    .blizzard--navbar {
+        height: 120px;
+    }
+    .blizzard--container {
+        display: flex;
+        flex-direction: column
+    }
+    .blizzard--menu {
+        width: 100%;
+    }
+}
