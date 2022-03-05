@@ -24,6 +24,10 @@
   --Dark-1: #b2bcca;
   --Dark-2: #828282;
   --Dark-3: #4f4f4f;
+  --Dark-4: #000000;
+
+  /* White */
+  --White-1: #ffffff;
 
   /* Grey */
   --Grey-1: #f6f6f6;
@@ -38,6 +42,9 @@
   /* Shadows */
   --Shadow-1: 0px 2px 6px rgba(0, 0, 0, 0.14);
   --Button-Shadow: 0px 4px 4px rgba(14, 53, 191, 0.25);
+
+  /* Radius */
+  --Radius: 4px;
 }
 
 body {
@@ -55,6 +62,7 @@ main {
   max-width: 1200px;
   width: 964px;
   height: 200px;
+  flex-direction: column;
 }
 
 main header {
@@ -91,6 +99,54 @@ main header p a {
 
 main header p a:hover {
   text-decoration: underline;
+}
+
+main header p > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+main aside .aula2--aside {
+}
+
+main aside .aula2--aside .accordion-item {
+  background: var(--White-1);
+  box-shadow: var(--Shadow-1);
+  border-radius: var(--Radius);
+
+  padding: 19px 20px 22px 20px;
+}
+
+main aside .aula2--aside .accordion-item h5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: var(--Dark-4);
+}
+
+main aside .aula2--aside .accordion-item h5 i {
+  font-size: 0.7rem;
+}
+
+main aside .aula2--aside .accordion-item div {
+  display: flex;
+  flex-direction: column;
+}
+
+main aside .aula2--aside .accordion-item div p {
+  margin-bottom: 0;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: var(--Dark-4);
 }
 
 /* Tablet < Abaixo de 1200px */
